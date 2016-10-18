@@ -58,7 +58,7 @@ export default class MapView extends React.Component {
               }}
               defaultOptions={{ mapTypeControl: false, streetViewControl: false }}
               defaultZoom={6}
-              defaultCenter={this.props.markerLocation.lat ? this.props.markerLocation : { lat: 43.6532, lng: -79.3832 }}
+              defaultCenter={this.props.markerLocation.lat ? this.props.markerLocation : { lat: 41.4239312, lng: 2.1660459 }}
               onClick={(data) => {
                 if (this.props.open) this.props.onSelectMarker(data.latLng.lat(), data.latLng.lng());
               }}
